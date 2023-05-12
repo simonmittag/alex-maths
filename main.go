@@ -3,7 +3,14 @@ package main
 import "fmt"
 
 func main() {
-	timesFour()
+	//timesFour()
+	trueOrFalse()
+}
+
+func trueOrFalse() {
+	o := 7
+	printb(o-2 == 5)
+	printb(o*3 == 15)
 }
 
 func timesFour() {
@@ -14,5 +21,9 @@ func timesFour() {
 }
 
 func print(o int) {
+	fmt.Printf("\n result: %v", o)
+}
+
+func printb(o bool) {
 	fmt.Printf("\n result: %v", o)
 }
