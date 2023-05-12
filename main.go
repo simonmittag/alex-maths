@@ -9,8 +9,8 @@ func main() {
 
 func trueOrFalse() {
 	o := 7
-	printb(o-2 == 5)
-	printb(o*3 == 15)
+	print(o-2 == 5)
+	print(o*3 == 15)
 }
 
 func timesFour() {
@@ -20,10 +20,6 @@ func timesFour() {
 	}
 }
 
-func print(o int) {
-	fmt.Printf("\n result: %v", o)
-}
-
-func printb(o bool) {
+func print(o interface{}) {
 	fmt.Printf("\n result: %v", o)
 }
