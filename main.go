@@ -3,8 +3,8 @@ package main
 import "fmt"
 
 func main() {
-	//timesFour()
-	trueOrFalse()
+	timesFour()
+	fmt.Println("")
 }
 
 func trueOrFalse() {
