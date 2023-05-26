@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	timesFour()
+	timesX(4)
 	fmt.Println("")
 }
 
@@ -13,10 +13,10 @@ func trueOrFalse() {
 	print(o*3 == 15)
 }
 
-func timesFour() {
+func timesX(x int) {
 	o := []int{2, 9}
 	for _, on := range o {
-		print(on * 4)
+		print(on * x)
 	}
 }
 
