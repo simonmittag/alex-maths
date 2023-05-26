@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	timesX(4)
+	timesX(7)
 	fmt.Println("")
 }
 
@@ -14,6 +14,7 @@ func trueOrFalse() {
 }
 
 func timesX(x int) {
+	fmt.Printf("\n X is %v", x)
 	o := []int{2, 9}
 	for _, on := range o {
 		print(on * x)
